@@ -27,8 +27,8 @@ function displayDetails(){
     var displayDetails = getElementById(display);
         var newRow = displayDetails.insertRow(row);
             var cel1 = NewRow.insertCell(0);
-			var cel2 = NewRow.insertCell(1);
-			var cel3 = NewRow.insertCell(2);
+	    var cel2 = NewRow.insertCell(1);
+	    var cel3 = NewRow.insertCell(2);
             var cel4 = NewRow.insertCell(3);
             var cel5 = NewRow.insertCell(4);
             var cel6 = NewRow.insertCell(5);
