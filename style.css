@@ -2,16 +2,14 @@ Body{
 font-family: Arial, Helvetica, sans-serif;
 box-sizing: border-box;
 background-color: white;
+text-align: center;
 }
 
 .box{
     margin: 50px;
     outline-color: whitesmoke;
     border: 8px solid whitesmoke;
-    width: 900px;
-    height: 550px;
     padding: 10px;
-    place-items: center;
     }
 
 form{ 
@@ -19,17 +17,11 @@ form{
     background-color:white;
     width: 80%;
     border: 1px solid #000;
-    height: 400px;
-    padding: 25px;
+    height: 200px;
+    padding: 15px;
     outline-color: black;
     margin-top: 12px;
     margin-bottom: 25px;
-}
-
-form h1{
-    color: grey;
-    text-align: center;
-    font-size: 20px;
 }
 
 input,select,textarea{
@@ -37,27 +29,54 @@ input,select,textarea{
     padding: 7px;
     border: 1px solid black;
     resize: vertical;
+    box-shadow: 2px 0 1px 0;
 }
-
 label{
     color: grey;
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
+input[type="checkbox"]{
+    width: 2%;
+    color: white;
+    cursor: pointer;
+}
 
 button{
     flex-grow: 1;
-    width: 100px;
+    width: 80px;
     margin: 25px; 
     border:none;
     border-radius: 6px;
     height: 25px;
     font-size: 15px;
-    background-color:skyblue;
-    color: grey;
+    background-color:blue;
+    box-shadow: 2px 0 2px 0;
+    margin: 8px;
+    cursor: pointer;
+    float: initial;
      
 }
 button:hover{
-    background-color: grey;
-    color: hotpink;
+    background-color: hotpink;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 50px auto;
+    background-color: gainsboro;
+}
+table, td, th{
+    border: 2px solid black;
+    padding: 2px; 
+}
+th{
+    font-weight: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50;
+}
+td{
+    font-weight: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50; 
 }
